@@ -110,15 +110,15 @@
       onSnapshot
     } from 'https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js';
 
-    const firebaseConfig = {
-      apiKey: 'AIzaSyDHCu65rWW7tLSMNV271kZizzLwToA8mww',
-      authDomain: 'wilukcountertest.firebaseapp.com',
-      projectId: 'wilukcountertest',
-      storageBucket: 'wilukcountertest.appspot.com',
-      messagingSenderId: '579408044616',
-      appId: '1:579408044616:web:022eb8443e071bd7f6ee7d',
-      measurementId: 'G-51JDNJD9YB'
-    };
+const firebaseConfig = {
+  apiKey: 'YOUR_API_KEY_HERE', // <-- placeholder
+  authDomain: 'wilukcountertest.firebaseapp.com',
+  projectId: 'wilukcountertest',
+  storageBucket: 'wilukcountertest.appspot.com',
+  messagingSenderId: '579408044616',
+  appId: '1:579408044616:web:022eb8443e071bd7f6ee7d',
+  measurementId: 'G-51JDNJD9YB'
+};
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
@@ -159,4 +159,3 @@
   </script>
 </body>
 </html>
-
