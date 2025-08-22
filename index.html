@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>デイリーぽータル風 トップページ（デモ）</title>
+  <title>Cool Cat Playground</title>
   <meta name="description" content="Daily Portal Z風のレイアウトを再現したスタティックなデモページ。" />
   <style>
     /* --------------------------------------
@@ -43,7 +43,7 @@
     .site-header{position:sticky;top:0;z-index:50;background:rgba(255,253,246,.9);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid var(--line)}
     .header-inner{max-width:var(--content-w);margin:auto;display:flex;align-items:center;gap:16px;padding:10px 16px}
     .logo{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}
-    .logo-badge{inline-size:38px;block-size:38px;border-radius:50%;background:conic-gradient(from 180deg,var(--brand),#ffd166,var(--brand),#ffd166);display:grid;place-items:center;box-shadow:var(--shadow)}
+    .logo-badge{inline-size:38px;block-size:38px;border-radius:50%;background:conic-gradient(from 180deg,var(--brand),#ff000d,var(--brand),#ffd166);display:grid;place-items:center;box-shadow:var(--shadow)}
     .logo-badge span{font-weight:900}
     .logo-title{font-size:1.2rem}
 
@@ -137,217 +137,217 @@
   <header class="site-header" role="banner">
     <div class="header-inner">
       <a class="logo" href="#" aria-label="ホーム">
-        <div class="logo-badge" aria-hidden="true"><span>DP</span></div>
-        <div class="logo-title">デイリーポータルっぽい サイト</div>
+        <div class="logo-badge" aria-hidden="true"><span>CC</span></div>
+        <div class="logo-title">Coolcat Playground</div>
       </a>
-      <nav class="nav" role="navigation" aria-label="主ナビゲーション">
-        <a href="#">最新記事</a>
-        <a href="#">コラム</a>
-        <a href="#">特集</a>
-        <a href="#">イベント</a>
-        <a href="#">広告について</a>
-        <a class="cta" href="#">はげます会</a>
+      <nav class="nav" role="navigation" aria-label="MainNavi">
+        <a href="#">Note</a>
+        <a href="#">Virtual</a>
+        <a href="#">Free Research</a>
+        <a href="#">ETC.</a>
+        <a class="cta" href="#">Donate Catfood</a>
       </nav>
     </div>
   </header>
 
   <!-- ============ HERO / UPDATE BAR ============ -->
-  <aside class="hero" aria-label="お知らせ">
-    <div class="hero-inner">
-      <span class="dot" aria-hidden="true"></span>
-      <p>本日は <strong>6本</strong> の記事を公開しました。ひと息ついてどうぞ！</p>
-    </div>
-  </aside>
+<aside class="hero" aria-label="Updates">
+<div class="hero-inner">
+<span class="dot" aria-hidden="true"></span>
+<p>Today we published <strong>6 articles</strong>. Take a break and enjoy!</p>
+</div>
+</aside>
 
-  <!-- ============ MAIN ============ -->
-  <main class="wrap" role="main">
-    <div class="grid">
-      <section>
-        <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>今日の読みもの</h2></div>
-        <div class="articles">
-          <!-- Article Card x 6 (サンプル) -->
-          <!-- CARD 1 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 1"><img src="https://picsum.photos/800/450?random=1" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">やってみた</span>
-                <time class="date" datetime="2025-08-22">2025/08/22</time>
-              </div>
-              <h3 class="title"><a href="#">家で流しそうめんを20mに伸ばしたら猫が最短経路で来た</a></h3>
-              <p class="excerpt">夏の工作シリーズ。家の中を縫うように巡る竹とビニールの迷路を、猫はどのくらいで学習するのか。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>編集部 たなか</span></div>
-                <span>8分で読めます</span>
-              </div>
+<!-- ============ MAIN ============ -->
+<main class="wrap" role="main">
+  <div class="grid">
+    <section>
+      <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>Today's Reads</h2></div>
+      <div class="articles">
+        <!-- Article Card x 6 (Sample) -->
+        <!-- CARD 1 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 1"><img src="https://picsum.photos/800/450?random=1" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Try It</span>
+              <time class="date" datetime="2025-08-22">2025/08/22</time>
             </div>
-          </article>
-          <!-- CARD 2 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 2"><img src="https://picsum.photos/800/450?random=2" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">観察</span>
-                <time class="date" datetime="2025-08-21">2025/08/21</time>
-              </div>
-              <h3 class="title"><a href="#">日本各地の自販機で「いちばん売れてない」ボタンを押す旅</a></h3>
-              <p class="excerpt">売れてないのに好き。そんな飲み物に会いにいくささやかなロードムービー。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>外部ライター みうら</span></div>
-                <span>6分</span>
-              </div>
+            <h3 class="title"><a href="#">Extended a 20m Flowing Somen at Home, Cat Found the Shortest Path</a></h3>
+            <p class="excerpt">Summer craft series. How quickly can a cat learn to navigate a maze of bamboo and plastic indoors?</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Editorial Team Tanaka</span></div>
+              <span>8 min read</span>
             </div>
-          </article>
-          <!-- CARD 3 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 3"><img src="https://picsum.photos/800/450?random=3" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">工作</span>
-                <time class="date" datetime="2025-08-20">2025/08/20</time>
-              </div>
-              <h3 class="title"><a href="#">ダンボール温泉で限界までととのう</a></h3>
-              <p class="excerpt">空の段ボールと布テープで作る、気持ちだけの露天風呂。湯気は想像で補完。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>編集部 さとう</span></div>
-                <span>7分</span>
-              </div>
-            </div>
-          </article>
-          <!-- CARD 4 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 4"><img src="https://picsum.photos/800/450?random=4" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">地理</span>
-                <time class="date" datetime="2025-08-19">2025/08/19</time>
-              </div>
-              <h3 class="title"><a href="#">地図にない坂を集めて勝手に百名坂</a></h3>
-              <p class="excerpt">名のない坂はいつも急だ。息切れしながらも、名付けの儀式は厳かに。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>学生ライター いのうえ</span></div>
-                <span>5分</span>
-              </div>
-            </div>
-          </article>
-          <!-- CARD 5 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 5"><img src="https://picsum.photos/800/450?random=5" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">料理</span>
-                <time class="date" datetime="2025-08-18">2025/08/18</time>
-              </div>
-              <h3 class="title"><a href="#">カレーの “最後の一口だけ超うまい” を最初から作る</a></h3>
-              <p class="excerpt">鍋の底の奇跡を再現する科学。焦げる一歩手前を永遠に。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>主婦ライター たまき</span></div>
-                <span>9分</span>
-              </div>
-            </div>
-          </article>
-          <!-- CARD 6 -->
-          <article class="card">
-            <a href="#" class="thumb" aria-label="記事サンプル 6"><img src="https://picsum.photos/800/450?random=6" alt="記事のサムネイル"></a>
-            <div class="card-body">
-              <div class="label-row">
-                <span class="cat">実験</span>
-                <time class="date" datetime="2025-08-17">2025/08/17</time>
-              </div>
-              <h3 class="title"><a href="#">1週間、連絡手段を “糸電話” だけにしたら友達が増えた</a></h3>
-              <p class="excerpt">結果的に距離は縮まった気がする。物理的にも精神的にも。</p>
-              <div class="meta-row">
-                <div class="author"><span class="avatar" aria-hidden="true"></span><span>教師ライター おおた</span></div>
-                <span>4分</span>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="section-head"><span class="bar" aria-hidden="true"></span><h2>過去の特集</h2></div>
-        <div class="articles">
-          <!-- more cards (短縮版) -->
-          <article class="card">
-            <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=7" alt></a>
-            <div class="card-body">
-              <div class="label-row"><span class="cat">特集</span><time class="date">2025/07/31</time></div>
-              <h3 class="title"><a href="#">ナゾの標識選手権2025</a></h3>
-              <p class="excerpt">街の端っこで主張するピクトさんたちに最優秀賞を。</p>
-            </div>
-          </article>
-          <article class="card">
-            <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=8" alt></a>
-            <div class="card-body">
-              <div class="label-row"><span class="cat">特集</span><time class="date">2025/07/10</time></div>
-              <h3 class="title"><a href="#">ご当地メロンパンを焼き尽くす</a></h3>
-              <p class="excerpt">全国の表面サクサク代表、集合。</p>
-            </div>
-          </article>
-          <article class="card">
-            <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=9" alt></a>
-            <div class="card-body">
-              <div class="label-row"><span class="cat">特集</span><time class="date">2025/06/18</time></div>
-              <h3 class="title"><a href="#">古地図で歩く架空駅前</a></h3>
-              <p class="excerpt">“あったかもしれない” 駅を、地図から起こして街歩き。</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- ============ SIDEBAR ============ -->
-      <aside class="sidebar" aria-label="サイドバー">
-        <section class="box member">
-          <h3>はげます会（メンバーシップ）</h3>
-          <p>サイト運営を応援する月額サポート。限定記事・イベント先行などの特典あり。</p>
-          <a class="cta-big" href="#">入会して応援する</a>
-          <small>いつでも解約できます</small>
-        </section>
-
-        <section class="box">
-          <h3>よく読まれている記事</h3>
-          <ul class="ranking">
-            <li><a href="#"><span class="n">1</span><span>冷凍うどんでフラフープはできるのか</span></a></li>
-            <li><a href="#"><span class="n">2</span><span>ラーメンの湯切りだけを楽しむ装置</span></a></li>
-            <li><a href="#"><span class="n">3</span><span>スマホの歩数だけで旅行した結果</span></a></li>
-            <li><a href="#"><span class="n">4</span><span>信号機の赤だけ見て暮らす</span></a></li>
-            <li><a href="#"><span class="n">5</span><span>ビニール傘で作るプラネタリウム</span></a></li>
-          </ul>
-        </section>
-
-        <section class="box">
-          <h3>タグ</h3>
-          <div class="tags">
-            <a class="tag" href="#">やってみた</a>
-            <a class="tag" href="#">観察</a>
-            <a class="tag" href="#">料理</a>
-            <a class="tag" href="#">工作</a>
-            <a class="tag" href="#">旅</a>
-            <a class="tag" href="#">地理</a>
-            <a class="tag" href="#">実験</a>
-            <a class="tag" href="#">レビュー</a>
           </div>
-        </section>
+        </article>
+        <!-- CARD 2 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 2"><img src="https://picsum.photos/800/450?random=2" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Observation</span>
+              <time class="date" datetime="2025-08-21">2025/08/21</time>
+            </div>
+            <h3 class="title"><a href="#">Tour Pressing the “Least Sold” Button on Vending Machines Across Japan</a></h3>
+            <p class="excerpt">I like what isn’t popular. A small road movie visiting such drinks.</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Freelancer Miura</span></div>
+              <span>6 min read</span>
+            </div>
+          </div>
+        </article>
+        <!-- CARD 3 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 3"><img src="https://picsum.photos/800/450?random=3" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Craft</span>
+              <time class="date" datetime="2025-08-20">2025/08/20</time>
+            </div>
+            <h3 class="title"><a href="#">Relaxing to the Limit in a Cardboard Hot Spring</a></h3>
+            <p class="excerpt">A makeshift outdoor bath made from empty cardboard and cloth tape. Steam is left to imagination.</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Editorial Team Sato</span></div>
+              <span>7 min read</span>
+            </div>
+          </div>
+        </article>
+        <!-- CARD 4 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 4"><img src="https://picsum.photos/800/450?random=4" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Geography</span>
+              <time class="date" datetime="2025-08-19">2025/08/19</time>
+            </div>
+            <h3 class="title"><a href="#">Collected Unnamed Slopes and Declared the Top 100 Slopes</a></h3>
+            <p class="excerpt">Unnamed slopes are always steep. Naming rituals proceed solemnly, despite shortness of breath.</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Student Writer Inoue</span></div>
+              <span>5 min read</span>
+            </div>
+          </div>
+        </article>
+        <!-- CARD 5 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 5"><img src="https://picsum.photos/800/450?random=5" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Cooking</span>
+              <time class="date" datetime="2025-08-18">2025/08/18</time>
+            </div>
+            <h3 class="title"><a href="#">Making the “Best Last Bite” of Curry from the Start</a></h3>
+            <p class="excerpt">The science of reproducing the miracle at the bottom of the pot. Forever on the edge of burning.</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Home Cook Writer Tamaki</span></div>
+              <span>9 min read</span>
+            </div>
+          </div>
+        </article>
+        <!-- CARD 6 -->
+        <article class="card">
+          <a href="#" class="thumb" aria-label="Sample Article 6"><img src="https://picsum.photos/800/450?random=6" alt="Article Thumbnail"></a>
+          <div class="card-body">
+            <div class="label-row">
+              <span class="cat">Experiment</span>
+              <time class="date" datetime="2025-08-17">2025/08/17</time>
+            </div>
+            <h3 class="title"><a href="#">Used Only “Tin Can Phones” for a Week, Made More Friends</a></h3>
+            <p class="excerpt">Distance ended up feeling shorter. Both physically and mentally.</p>
+            <div class="meta-row">
+              <div class="author"><span class="avatar" aria-hidden="true"></span><span>Teacher Writer Ota</span></div>
+              <span>4 min read</span>
+            </div>
+          </div>
+        </article>
+      </div>
 
-        <section class="box">
-          <h3>お知らせ</h3>
-          <p>8/30 オンラインイベント開催！テーマは「この夏いちばん小さかった発見」。</p>
-        </section>
-      </aside>
+<div class="section-head"><span class="bar" aria-hidden="true"></span><h2>Past Features</h2></div>
+<div class="articles">
+  <!-- more cards (short version) -->
+  <article class="card">
+    <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=7" alt></a>
+    <div class="card-body">
+      <div class="label-row"><span class="cat">Feature</span><time class="date">2025/07/31</time></div>
+      <h3 class="title"><a href="#">Mystery Sign Championship 2025</a></h3>
+      <p class="excerpt">Awarded top honors to the pictograms asserting themselves at the corners of the city.</p>
     </div>
-  </main>
+  </article>
+  <article class="card">
+    <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=8" alt></a>
+    <div class="card-body">
+      <div class="label-row"><span class="cat">Feature</span><time class="date">2025/07/10</time></div>
+      <h3 class="title"><a href="#">Baking Local Melon Breads to Perfection</a></h3>
+      <p class="excerpt">Gathering representatives of crispy surfaces from all over the country.</p>
+    </div>
+  </article>
+  <article class="card">
+    <a href="#" class="thumb"><img src="https://picsum.photos/800/450?random=9" alt></a>
+    <div class="card-body">
+      <div class="label-row"><span class="cat">Feature</span><time class="date">2025/06/18</time></div>
+      <h3 class="title"><a href="#">Walking Around a Fictional Station Using Old Maps</a></h3>
+      <p class="excerpt">Exploring a “might-have-existed” station, recreated from old maps.</p>
+    </div>
+  </article>
+</div>
+</section>
 
-  <!-- ============ FOOTER ============ -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner">
-      <nav class="footer-nav" aria-label="フッターナビ">
-        <a href="#">サイトについて</a>
-        <a href="#">English</a>
-        <a href="#">広告掲載</a>
-        <a href="#">お問い合わせ</a>
-        <a href="#">プライバシーポリシー</a>
-      </nav>
-      <div class="copyright">© 2025 デモサイト. このページは学習目的のレイアウト再現です（実在のサイトとは無関係）。</div>
+<!-- ============ SIDEBAR ============ -->
+<aside class="sidebar" aria-label="Sidebar">
+  <section class="box member">
+    <h3>Supporters Club (Membership)</h3>
+    <p>Monthly support to help run the site. Benefits include exclusive articles and early event access.</p>
+    <a class="cta-big" href="#">Join & Support</a>
+    <small>Cancel anytime</small>
+  </section>
+
+  <section class="box">
+    <h3>Most Read Articles</h3>
+    <ul class="ranking">
+      <li><a href="#"><span class="n">1</span><span>Can You Hula Hoop with Frozen Udon?</span></a></li>
+      <li><a href="#"><span class="n">2</span><span>Device Just for Enjoying Ramen Water Drain</span></a></li>
+      <li><a href="#"><span class="n">3</span><span>Traveling Only by Smartphone Step Count</span></a></li>
+      <li><a href="#"><span class="n">4</span><span>Living Only by Watching Red Traffic Lights</span></a></li>
+      <li><a href="#"><span class="n">5</span><span>Making a Planetarium with a Plastic Umbrella</span></a></li>
+    </ul>
+  </section>
+
+  <section class="box">
+    <h3>Tags</h3>
+    <div class="tags">
+      <a class="tag" href="#">Try It</a>
+      <a class="tag" href="#">Observation</a>
+      <a class="tag" href="#">Cooking</a>
+      <a class="tag" href="#">Craft</a>
+      <a class="tag" href="#">Travel</a>
+      <a class="tag" href="#">Geography</a>
+      <a class="tag" href="#">Experiment</a>
+      <a class="tag" href="#">Review</a>
     </div>
-  </footer>
+  </section>
+
+  <section class="box">
+    <h3>Announcements</h3>
+    <p>8/30 Online Event! Theme: “The Smallest Discovery This Summer.”</p>
+  </section>
+</aside>
+</div>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <nav class="footer-nav" aria-label="Footer Navigation">
+      <a href="#">About</a>
+      <a href="#">English</a>
+      <a href="#">Advertising</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+    </nav>
+    <div class="copyright">© 2025 Demo Site. This page is a layout reproduction for learning purposes (not affiliated with any real site).</div>
+  </div>
+</footer>
+
 </body>
 </html>
